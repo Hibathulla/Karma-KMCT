@@ -1,40 +1,65 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
- 
-*{
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    align-items: center;
-    justify-content: center;
-    font-family: "Poppins",sans-serif;
-    display: flex;
+
+body {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("https://raw.githubusercontent.com/Basith-P/Karma-KMCT/main/public/assets/Desktop-3.png");
+}
+
+.nav {
+    background-color: black;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
     text-align: center;
-    margin:25em;
-    overflow: hidden;
-
-    width: auto;
-    border: 5px solid;
-    height: 20em;
-    border-radius:1em
- 
 }
 
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
 
-.countdown{
+.desc {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.row {
     display: flex;
-    transform:scale(2);
+    flex-wrap: wrap;
+    padding: 0 2px;
 }
-.time{
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 15px;
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 2px;
 }
-.time h2{
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1;
-    margin: 0 0 5px;
+
+.gallery-img {
+    margin-top: 4px;
+    vertical-align: middle;
+    width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

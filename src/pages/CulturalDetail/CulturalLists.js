@@ -233,6 +233,7 @@ const CulturalLists = [
     paymentLink: "https://rzp.io/l/Karma-Troll",
     redirectLink: "/events/cultural/troll",
   },
+  
 ];
 
 export default CulturalLists;

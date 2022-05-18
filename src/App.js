@@ -6,6 +6,7 @@ import Ambassadar from "./components/Ambassadar/Ambassadar";
 import Alumni from "./components/Alumni/Alumni";
 import ContactUs from "./components/ContactUs/ContactUs";
 import PreLoader from "./pages/PreLoader/PreLoader";
+import Tickets from "./pages/Tickets/Tickets";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Ambassadar />
       <Alumni />
       <ContactUs />
+      <Tickets />
     </Fragment>
   );
 }

@@ -43,7 +43,7 @@ const CulturalDetail = () => {
           <p className={classes.para}>{culturalDetail[0].rule13}</p>
           <p className={classes.para}>{culturalDetail[0].rule14}</p>
           <p className={classes.para}>{culturalDetail[0].rule15}</p>
-
+    
           <a
             href={culturalDetail[0].paymentLink}
             target="_blank"
